@@ -11,8 +11,17 @@
 
 ::selection {background: var(--selection-col) !important;}
 
-.theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB, .theme-dark [class^="directoryModal-"] {
-    background-color: var(--background-secondary-alt);
+/* a very dark theme */
+.theme-dark {
+    --background-primary: rgb(0 0 0);
+    --background-secondary: rgb(20 20 21);
+    --background-secondary-alt: rgb(10 10 11);
+    --background-tertiary: rgb(21 21 22);
+    --background-floating: rgb(8 8 9);
+    --channeltextarea-background: rgb(16 16 17);
+    --modal-footer-background: rgb(24 24 25);
+    --modal-background: rgb(15 15 16 / 75%);
+    --home-background: var(--background-primary);
 }
 
 .theme-light .wrapper-1_HaEi,.theme-light .scroller-3X7KbA {
